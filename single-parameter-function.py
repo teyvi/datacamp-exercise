@@ -16,4 +16,4 @@ def shout(word):
     print(shout_word)
 
 # Call shout with the string 'congratulations'
-shout('congratulations')
+shout('biggots')
