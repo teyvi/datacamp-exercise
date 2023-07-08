@@ -13,14 +13,14 @@ def report_status(**kwargs):
     print("\nBEGIN: REPORT\n")
 
     # Iterate over the key-value pairs of kwargs
-    for name, value in kwargs.items():
+    for key, value in kwargs.items():
         # Print out the keys and values, separated by a colon ':'
-        print(name,"=",value )
+        print(key + ": " + value)
 
     print("\nEND REPORT")
 
 # First call to report_status()
-
+report_status(name="luke", affiliation="jedi", status="missing")
 
 # Second call to report_status()
-report_status(name='anakin', affiliation="sith lord", status="deceased")
+report_status(name="anakin", affiliation="sith lord", status="deceased")
