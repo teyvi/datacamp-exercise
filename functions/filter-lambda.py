@@ -10,7 +10,7 @@ Created on Sat Jul  8 02:58:56 2023
 fellowship = ['frodo', 'samwise', 'merry', 'pippin', 'aragorn', 'boromir', 'legolas', 'gimli', 'gandalf']
 
 # Use filter() to apply a lambda function over fellowship: result
-result = filter(lambda fellowship: len(fellowship) > 6, fellowship)
+result = filter(lambda fellowship: len(fellowship) < 4, fellowship)
 
 # Convert result to a list: result_list
 result_list = list(result)
