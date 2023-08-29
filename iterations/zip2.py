@@ -21,3 +21,4 @@ result1, result2 = zip(*z1)
 # Check if unpacked tuples are equivalent to original tuples
 print(result1 == mutants)
 print(result2 == powers)
+print (result2!=powers)
